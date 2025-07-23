@@ -1,0 +1,100 @@
+/* 메인 섹션 */
+#main {
+    padding: 20px;
+}
+
+/* 컨테이너 스타일 */
+.container {
+	margin-top: 10px;
+    display: flex; /* flexbox 사용 */
+}
+
+/* 카테고리 스타일 */
+.category {
+    background-color: #ccc;
+    padding: 15px;
+    width: 140px; /* 고정 너비 */
+}
+
+.category h2 {
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.category ul li {
+    margin: 5px 0;
+}
+
+/* 상품 섹션 스타일 */
+.product-section {
+    flex-grow: 1; /* 남은 공간 채우기 */
+    margin-left: 40px; /* 카테고리와의 간격 */
+    margin-right: 40px;
+}
+
+/* 상품 헤더 스타일 */
+.product-header {
+    display: flex;
+    justify-content: space-between; /* 제목과 버튼을 양쪽 끝으로 배치 */
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+.product-header h2 {
+    margin: 0; /* 기본 마진 제거 */
+}
+
+/* 상품 목록 스타일 */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-top: 20px; /* 제목과 상품 목록 사이의 간격 */
+}
+
+.product-item {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+    height: 250px; /* 고정 높이 */
+}
+
+.product-item img {
+    width: 100%;
+    height: 80%;
+    display: block; /* 이미지가 부모에 맞게 정렬될 수 있도록 block으로 설정 */
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.product-item a {
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: inherit; /* 부모 요소의 색상 상속 */
+}
+
+.product-item h3 {
+    margin: 0; /* 기본 마진 제거 */
+    padding-top: 8px;
+}
+
+.product-item p {
+    margin-top: 5px; /* 가격과 상품명 사이의 간격 조정 */
+}
+
+/* 상품 등록 버튼 스타일 */
+.add_product {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add_product:hover {
+    background-color: #45a049;
+}

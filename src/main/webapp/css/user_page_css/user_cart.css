@@ -1,0 +1,174 @@
+#mypage_container {
+    margin: 50px 0;
+    display: flex; /* flexbox 사용 */
+}
+
+.sidebar_section {
+    width: 20%; /* 사이드바의 너비 설정 */
+    background-color: #6d6d6d;
+    padding: 20px; /* 내부 여백 추가 */
+    display: flex; /* 플렉스 박스 사용 */
+    flex-direction: column; /* 세로 방향으로 배치 */
+    align-items: center; /* 사이드바 내의 요소들을 가운데 정렬 */
+    max-height: 400px; /* 최대 높이 설정 */
+}
+
+.profile_image {
+    width: 100px; /* 원하는 너비 */
+    height: 100px; /* 원하는 높이 */
+    margin-bottom: 15px; /* 아래 여백 */
+    display: flex; /* 플렉스 박스 사용 */
+    justify-content: center; /* 수평 중앙 정렬 */
+}
+
+.profile_image img {
+    width: 100px; /* 이미지 너비 설정 */
+    height: 100px; /* 이미지 높이 설정 */
+    border-radius: 50%; /* 원형으로 만들기 */
+    display: block; /* 블록 요소로 설정 */
+}
+
+.sidebar_menu {
+    width: 100%; /* 사이드바의 전체 너비를 사용 */
+    display: flex; /* 플렉스 박스 사용 */
+    flex-direction: column; /* 세로 방향으로 배치 */
+    margin-top: 20px;/* 프로필 영역과 사이드바 사이의 간격 */
+    border-top: solid 3px #ffffff;
+    padding-top: 15px;
+    justify-content: center; /* 수평 중앙 정렬 */
+}
+
+.sidebar_menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar_menu li {
+    margin: 15px 0;
+}
+
+.sidebar_menu a {
+    text-decoration: none;
+    color: black;
+    background-color: #dadada;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: block; /* 블록 요소로 설정 */
+    width: 100%; /* 박스의 크기를 기준으로 설정 (예: 90% 너비) */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    margin: 5px 0; /* 위아래 여백 추가 */
+}
+
+.sidebar_menu a:last-child {
+    margin-bottom: 0; /* 마지막 항목의 아래 여백 제거 */
+}
+
+.sidebar_menu a:hover {
+    background-color: #ccc;
+}
+
+.sidebar_section h2 {
+    font-size: 24px; /* 글꼴 크기 */
+    color: #ffffff; /* 글꼴 색상 */
+    text-align: center; /* 중앙 정렬 */
+}
+
+.profile_info {
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 배치 */
+    justify-content: space-between; /* 요소들 사이에 공간을 분배 */
+    background-color: #f2f2f2; /* 배경색 */
+    padding: 20px; /* 내부 여백 */
+    border-radius: 8px; /* 모서리 둥글기 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    width: 50%; /* 프로필 영역의 너비 조정 */
+    margin: 20px auto; /* 위아래 여백 및 중앙 정렬 */
+}
+
+.profile_info h2 {
+    font-size: 24px; /* 제목 크기 */
+    color: #1b1b1b; /* 제목 색상 */
+    margin-bottom: 15px; /* 제목 아래 여백 */
+    text-align: center; /* 제목 중앙 정렬 */
+}
+
+.profile_info p {
+    margin: 10px 0; /* 문단 위아래 여백 */
+    color: #1b1b1b; /* 문단 색상 */
+    font-size: 16px;
+}
+
+.interests {
+    margin: 5px 0; /* 관심 분야 위아래 여백 */
+    display: flex;
+}
+
+.interests label {
+	margin-right: 1px;
+    color: #1b1b1b; /* 문단 색상 */
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 5px; /* 버튼 위 여백 */
+    padding: 10px 15px; /* 버튼 패딩 */
+    background-color: #ff4d4d; /* 버튼 배경색 */
+    color: white; /* 버튼 텍스트 색상 */
+    border: none; /* 테두리 제거 */
+    border-radius: 5px; /* 버튼 모서리 둥글기 */
+    cursor: pointer; /* 마우스 커서 변경 */
+    transition: background-color 0.3s; /* 배경색 변화 효과 */
+}
+
+button:hover {
+    /*background-color: #ff1a1a;*/ /* 버튼 호버 시 색상 변화 */
+}
+
+/* ///////////////////////////////order////////////////////////////// */
+
+.order_info {
+    flex-grow: 1; /* 남은 공간을 차지 */
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order_info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order_item {
+    display: flex; /* 이미지와 내용을 나란히 배치 */
+    align-items: center; /* 세로 정렬 */
+    margin: 15px 0; /* 항목 사이 여백 */
+    border-top: solid 2px #000000;
+    padding-top: 20px;
+}
+
+.order_item img {
+    width: 100px; /* 이미지 너비 설정 */
+    height: auto; /* 비율 유지 */
+    margin-right: 1px; /* 이미지와 내용 사이 여백 */
+}
+
+.item_details {
+    flex-grow: 1; /* 남은 공간을 차지 */
+}
+
+.review_button {
+    background-color: #4CAF50; /* 초록색 배경 */
+    color: white; /* 버튼 텍스트 색상 */
+}
+
+.review_button:hover {
+    background-color: #45a049; /* 호버 시 색상 변화 */
+}
+.order_button{
+	background-color: #4CAF50;
+	margin-left:150px;
+	padding-right:100px;
+	padding-left:100px;
+}

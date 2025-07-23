@@ -1,0 +1,126 @@
+/* 전체 */
+* {
+    margin:0;
+    padding:0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body {
+    font-family:"맑은 고딕", "돋움";
+    font-size:12px;
+    color:#444444;
+    background-color:white;
+}
+
+/* 헤더 부분 */
+header {
+	 height: 105px;
+     padding: 15px;
+     text-align: center;
+     background-color: #dadada;
+}
+
+#top {
+    display: flex; 
+    justify-content: space-between; /* 양쪽 끝으로 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    padding: 0 20px; 
+}
+
+#main_logo {
+    font-size: 24px;
+    font-weight: bold;
+    min-width: 80px;
+    text-decoration: none;
+    color: black; /* 로고 색상 */
+}
+
+#main_logo a:hover {
+    background-color: #000000; /* 마우스 오버 시 배경색 변경 */
+}
+
+#search {
+    display: flex; 
+    align-items: center; /* 세로 중앙 정렬 */
+    margin: 0;
+    flex-grow: 1; /* 가능한 공간을 차지 */
+}
+
+#search input {
+    padding: 10px; 
+    border: 1px solid #ccc; /* 테두리 추가 */
+    border-radius: 4px; /* 모서리 둥글게 */
+    width: 100%; /* 너비 100% */
+    max-width: 900px; /* 최대 너비 설정 */
+    min-width: 200px;
+    margin-right: 40px; /* 로그인 버튼과의 여백 설정 */
+    background-color: #c0c0c0;
+}
+
+#login {
+	font-size: 16px;
+    margin: 0px; /* 로그인 버튼 여백 */
+    font-weight: bold; 
+    text-decoration: none;
+    min-width: 50px;
+}
+
+#login a:hover {
+    background-color: #b2b2b2; /* 마우스 오버 시 배경색 변경 */
+}
+
+#user_icon {
+    width: 30px; /* 이미지 너비 조정 */
+    height: 30px; /* 이미지 높이 조정 */
+    border-radius: 50%; /* 원형으로 만들기 */
+    margin: 0px; /* 로그인 버튼과의 여백 */
+    vertical-align: middle; /* 수직 정렬 */
+}
+
+#user_icon a:hover {
+    background-color: #b2b2b2; /* 마우스 오버 시 배경색 변경 */
+}
+
+
+section#category {
+    margin-top: 20px;
+    padding-bottom: 4px; /* 아래쪽 패딩 추가 */
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+    text-align: center;
+    justify-content: center; /* 중앙 정렬 */
+    display: flex;
+    background-color: #f8f8f8;
+}
+
+#category_menu {
+    display: flex; 
+    width: 100%;
+}
+
+
+#category ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 4px;
+    display: flex;
+    flex: 1;
+}
+
+#category li {
+	flex: 1;
+    min-width: 90px; /* 최소 너비 설정 */
+    margin: 10px 0px;
+}
+#category a {
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    display: block; /* 링크를 블록으로 설정하여 클릭 영역 확대 */
+    font-size: 14px;
+}
+
+#category a:hover {
+    background-color: #f0f0f0; /* 마우스 오버 시 배경색 변경 */
+}

@@ -1,0 +1,85 @@
+/* 전체 */
+* {
+    margin:0;
+    padding:0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* 화면 전체를 채움 */
+    flex-direction: column;
+}
+.up{margin-top: -20px;} /* 위치조정*/
+a {text-decoration: none; white-space: nowrap;  /* 링크의 기본 밑줄 제거 */}
+ul {
+    list-style: none; /* 기본 점 제거 */
+    margin: 0; /* 여백 제거 */
+    padding: 0; /* 패딩 제거 */
+}
+#space{margin-left: -50px;
+    margin-right: -100px;}
+span{margin-left: -50px;}  /* 간격 조정 */
+    
+input[type="text"] {
+	margin-left: 30px; 
+}        
+input[type="password"] {
+	margin-left: 14px; 
+}    
+#space input[type="submit"],
+#space input[type="reset"] {
+    margin-right: -50px; /* 오른쪽 여백 설정 (버튼 간 간격) */
+    margin-top: 10px; /* 위쪽 여백 설정 (선택적) */
+}
+
+header {
+	margin-top:100px;
+	margin-bottom:100px;
+	width:700px;
+	height: 50px;
+	text-align: center;
+	background-color: #ccc;
+}
+
+.login_form  { 
+	margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom:350px;
+	height: 400px;
+    
+   
+}
+
+.login_box {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left:0px;
+    height: 110px;
+    background-color:white;
+    border: 2px solid#B2E7D6;
+}
+
+#SNS{
+	margin-left: 150px;
+    margin-right: 150px;
+    padding-left:0px;
+    height: 110px;
+    background-color: #ccc;
+    border: 2px solid#B2E7D6;
+}
+#SNS img {
+    margin: 0; /* 모든 여백 제거 */
+    padding: 0; /* 모든 패딩 제거 */
+    
+}
+
+.find {
+	margin:0; 
+	font-size:15;
+	color:#303030;
+}
+

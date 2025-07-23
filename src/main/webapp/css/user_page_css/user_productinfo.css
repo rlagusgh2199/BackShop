@@ -1,0 +1,66 @@
+@charset "UTF-8";
+#img{
+	width:300px;
+	height:400px;
+	margin:30px;
+	float:left;
+}
+.container1{
+	display: flex;
+    
+    margin-left:180px;
+}
+.container2{
+	display: flex;
+}
+.info{
+	margin-top:30px;
+}
+.number{
+	display:flex;
+}
+#number{
+	display: flex;
+    align-items: center;
+    
+}
+#number_up,
+#number_down{
+	 width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin: 0 10px; /* 버튼 간격 최소화 */
+    cursor: pointer;
+    background-color:white;
+}
+.container3{
+	display:flex;
+	margin-top:30px;
+	margin-left:30px;
+}
+#review_title{
+	float:left;
+	margin-left:300px;
+}
+#order_btn{
+	margin-top:30px;
+	width:100px;
+	height:50px;
+	background-color:#4C4C4C;
+	color:white;
+}
+#review_btn{
+	margin-left:400px;
+	width:100px;
+	height:40px;
+}
+.container4{
+	margin-left:300px;
+}
+.review{
+	font-size:15px;
+	margin-top:20px;
+}
+#review_hr{
+	width:600px;
+}

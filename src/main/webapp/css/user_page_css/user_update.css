@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h1 {
+    background-color: #4C4C4C;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+form {
+    margin-left: 450px;
+    width: 800px;
+}
+
+form label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form input, form select {
+    width: 700px;
+    height: 50px;
+    background-color: #DCDCDC;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    width: 700px;
+    height: 150px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form button {
+    margin-left: 300px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #4C4C4C;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #333;
+}
+
+select {
+    background-color: #DCDCDC;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 300px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #4C4C4C;
+    color: white;
+    cursor: pointer;
+}
+#address1{
+	margin-right:35px;
+}
+
+#gender1{
+	margin-right:43px;
+}
+#email1{
+	margin-right:23px;
+}
+#alias1{
+	margin-right:37px;
+}
+
+#alias{
+	margin:15px;
+	margin-bottom:50px;
+	width:550px;
+	margin-left: 55px;
+}
+#email{
+	margin:15px;
+	margin-bottom:50px;
+	width:550px;
+	margin-left: 35px;
+}
+#gender{
+	margin:15px;
+	margin-bottom:50px;
+	width:550px;
+	margin-left: 55px;
+}
+#favorite{
+	margin:15px;
+	margin-bottom:50px;
+	width:550px;
+}
+#address{
+	margin:15px;
+	margin-bottom:50px;
+	width:550px;
+	margin-left: 55px;
+}
