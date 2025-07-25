@@ -1,0 +1,25 @@
+# Java class files
+*.class
+
+# Log files
+*.log
+
+# Build directories
+/target/
+/build/
+/out/
+
+# Maven
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
