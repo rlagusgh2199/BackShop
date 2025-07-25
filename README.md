@@ -59,10 +59,9 @@ BackShop/
 
 ---
 
-## 📷 시연 영상
+## 🎬 시연 영상
 
-👉 [시연 영상 보러가기](https://your-video-link.com)  
-*(※ 실제 시연 영상 URL로 교체해주세요)*
+[![BackShop 시연 영상](https://img.youtube.com/vi/QNnIRpblNKk/0.jpg)](https://www.youtube.com/watch?v=QNnIRpblNKk)
 
 ---
 
