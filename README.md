@@ -19,12 +19,11 @@ BackShop/
 
 ## ⚙️ 기술 스택
 
-- Java 8+
+- Java
 - JSP / Servlet
 - JDBC (MySQL)
 - HTML / CSS / JS
-- GitHub Desktop
-
+- 
 ---
 
 ## 📌 주요 기능
