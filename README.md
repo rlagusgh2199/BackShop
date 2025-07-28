@@ -21,12 +21,22 @@
 
 ```
 BackShop/
-└── src/
-    ├── controller/   # Servlet, Controller 계층
-    ├── model/        # DAO, DTO 등 비즈니스 로직
-    ├── view/         # JSP 파일 등 UI 구성 뷰
-    ├── config/       # META-INF, WEB-INF, 라이브러리 설정 관련
-    └── resources/    # 정적 자원 (CSS, 이미지 등)
+├── src/
+│   ├── controller/   # Servlet, Controller 계층 (요청 처리 및 라우팅)
+│   ├── model/        # DAO, DTO 등 비즈니스 로직 및 DB 처리 계층
+│   ├── view/         # JSP 파일 등 화면 UI 구성
+│   ├── config/       # META-INF, WEB-INF, 라이브러리 설정 관련
+│   └── resources/    # 정적 자원 (CSS, 이미지 등)
+│
+├── db/
+│   └── BackShop_Dump.sql         # DB 테이블 및 더미 데이터 덤프
+│
+├── docs/
+│   └── 백엔드실습_11조_결과보고서.docx  # 프로젝트 기획 및 결과 보고서
+│
+├── README.md         # 프로젝트 소개 및 실행 가이드
+├── .gitignore        # Git 추적 제외 설정 파일
+└── pom.xml           # Maven 프로젝트 설정 파일
 ```
 
 ---
