@@ -34,9 +34,9 @@ BackShop/
 ├── docs/
 │   └── 백엔드실습_11조_결과보고서.docx  # 프로젝트 기획 및 결과 보고서
 │
-├── README.md         # 프로젝트 소개 및 실행 가이드
-├── .gitignore        # Git 추적 제외 설정 파일
-└── pom.xml           # Maven 프로젝트 설정 파일
+├── README.md        
+├── .gitignore        
+└── pom.xml           
 ```
 
 ---
