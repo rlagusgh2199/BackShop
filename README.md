@@ -31,12 +31,9 @@ BackShop/
 ├── db/
 │   └── BackShop_Dump.sql         # DB 테이블 및 더미 데이터 덤프
 │
-├── docs/
-│   └── 백엔드실습_11조_결과보고서.docx  # 프로젝트 기획 및 결과 보고서
-│
-├── README.md        
-├── .gitignore        
-└── pom.xml           
+└── docs/
+    └── 백엔드실습_11조_결과보고서.docx  # 프로젝트 기획 및 결과 보고서
+         
 ```
 
 ---
